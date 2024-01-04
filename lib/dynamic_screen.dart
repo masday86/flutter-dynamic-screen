@@ -1,5 +1,5 @@
+import 'package:dynamic_screen/dynamic_screen_platform_interface.dart';
 import 'package:flutter/material.dart';
-
 
 // ignore: constant_identifier_names
 enum DeviceScreenType { Mobile, Tablet, Desktop }
@@ -32,5 +32,9 @@ class DynamicScreen {
       return DeviceScreenType.Tablet;
     }
     return DeviceScreenType.Mobile;
+  }
+
+    Future<String?> getPlatformVersion() {
+    return DynamicScreenPlatform.instance.getPlatformVersion();
   }
 }
