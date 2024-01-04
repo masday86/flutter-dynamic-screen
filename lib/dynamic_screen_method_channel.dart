@@ -7,7 +7,7 @@ import 'dynamic_screen_platform_interface.dart';
 class MethodChannelDynamicScreen extends DynamicScreenPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('new_dynamic_screen');
+  final methodChannel = const MethodChannel('dynamic_screen');
 
   @override
   Future<String?> getPlatformVersion() async {
