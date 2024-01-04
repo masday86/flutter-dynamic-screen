@@ -49,7 +49,7 @@ flutter:
         pluginClass: DynamicScreenPlugin
       web:
         pluginClass: DynamicScreenPlugin
-        # fileName: dynamic_screen_web.dart
+        fileName: dynamic_screen.dart
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
