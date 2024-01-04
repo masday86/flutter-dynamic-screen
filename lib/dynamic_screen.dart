@@ -1,4 +1,3 @@
-import 'package:dynamic_screen/dynamic_screen_platform_interface.dart';
 import 'package:flutter/material.dart';
 
 // ignore: constant_identifier_names
@@ -34,7 +33,4 @@ class DynamicScreen {
     return DeviceScreenType.Mobile;
   }
 
-    Future<String?> getPlatformVersion() {
-    return DynamicScreenPlatform.instance.getPlatformVersion();
-  }
 }

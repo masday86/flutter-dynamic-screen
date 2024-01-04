@@ -1,7 +1,7 @@
 name: dynamic_screen
-description: "A new Flutter plugin project."
-version: 0.0.2
-homepage:
+description: "A plugin for dynamic screen mobile, tablet and desktop screen size"
+version: 0.0.3
+homepage: https://github.com/masday86/flutter-dynamic-screen
 
 environment:
   sdk: '>=3.2.1 <4.0.0'
@@ -12,7 +12,7 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  plugin_platform_interface: ^2.0.2
+  # plugin_platform_interface: ^2.0.2
 
 dev_dependencies:
   flutter_test:
@@ -34,22 +34,22 @@ flutter:
   # This is required for using `dart:ffi`.
   # All these are used by the tooling to maintain consistency when
   # adding or updating assets for this project.
-  plugin:
-    platforms:
-      android:
-        package: com.cantewadev.dynamicscreen.dynamic_screen
-        pluginClass: DynamicScreenPlugin
-      ios:
-        pluginClass: DynamicScreenPlugin
-      linux:
-        pluginClass: DynamicScreenPlugin
-      macos:
-        pluginClass: DynamicScreenPlugin
-      windows:
-        pluginClass: DynamicScreenPlugin
-      web:
-        pluginClass: DynamicScreenPlugin
-        fileName: dynamic_screen.dart
+  # plugin:
+  #   platforms:
+  #     android:
+  #       package: com.cantewadev.dynamicscreen.dynamic_screen
+  #       pluginClass: DynamicScreenPlugin
+  #     ios:
+  #       pluginClass: DynamicScreenPlugin
+  #     linux:
+  #       pluginClass: DynamicScreenPlugin
+  #     macos:
+  #       pluginClass: DynamicScreenPlugin
+  #     windows:
+  #       pluginClass: DynamicScreenPlugin
+  #     web:
+  #       pluginClass: DynamicScreenPlugin
+  #       fileName: dynamic_screen.dart
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
