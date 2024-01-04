@@ -46,10 +46,10 @@ flutter:
       macos:
         pluginClass: DynamicScreenPlugin
       windows:
-        pluginClass: DynamicScreenPluginCApi
+        pluginClass: DynamicScreenPlugin
       web:
-        pluginClass: DynamicScreenWeb
-        fileName: dynamic_screen_web.dart
+        pluginClass: DynamicScreenPlugin
+        # fileName: dynamic_screen_web.dart
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
