@@ -38,17 +38,17 @@ flutter:
     platforms:
       android:
         package: com.cantewadev.dynamicscreen.dynamic_screen
-        pluginClass: DynamicScreenPlugin
+        pluginClass: DynamicScreen
       ios:
-        pluginClass: DynamicScreenPlugin
+        pluginClass: DynamicScreen
       linux:
-        pluginClass: DynamicScreenPlugin
+        pluginClass: DynamicScreen
       macos:
-        pluginClass: DynamicScreenPlugin
+        pluginClass: DynamicScreen
       windows:
-        pluginClass: DynamicScreenPluginCApi
+        pluginClass: DynamicScreen
       web:
-        pluginClass: DynamicScreenWeb
+        pluginClass: DynamicScreen
         # fileName: dynamic_screen_web.dart
 
   # To add assets to your plugin package, add an assets section, like this:
